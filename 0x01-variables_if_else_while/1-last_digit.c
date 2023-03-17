@@ -3,29 +3,33 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Main Entry point for the program
  *
- * Return: Always 0 (Success)
+ * Return: Return 0 Success
  */
 
+/* This shows the code to be solved */
 int main(void)
 {
 	int n;
+	int m;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
-	if ((n % 10) > 5)
+	/* This shows the last digit */
+	m = n % 10;
+	/* This shows the conditions to be met for the code */
+	if (m > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, 10);
+		printf("Last digit of %d is %d and is greater than 5\n", n, m);
 	}
-	else if ((n & 10) < 6 && (n % 10) != 0)
+	else if (m == 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10)
+		printf("Last digit of %d is %d and is 0\n", n, m);
 	}
-	else
-		printf("Last digit of %d is %d and is 0\n", n, n % 10);
-}
-
+	else if (m < 6 && m != 0)
+	{
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
+	}
 	return (0);
 }
