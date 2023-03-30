@@ -9,11 +9,7 @@ int *p;
 a[2] = 1024;
 p = &n;
 /*
-* main: Entry point
-* Description: write one line of code that prints a[2] = 98
-*
-* @n: parameter
-* Return: 0 (Success)
+* write your line of code here...
 * Remember:
 * - you are not allowed to use a
 * - you are not allowed to modify p
