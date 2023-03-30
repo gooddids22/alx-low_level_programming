@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "MAIN_H"
 
 int main(void)
 {
