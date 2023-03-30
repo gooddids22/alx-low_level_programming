@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main(void)
+	/* main - Entry point */
 {
 int n;
 int a[5];
