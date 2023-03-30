@@ -6,7 +6,7 @@
  *@dest: input value
  *@src: input value
  *@n: input value
- *Return: 0
+ *Return: dest
  */
 
 
