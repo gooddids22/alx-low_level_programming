@@ -9,7 +9,6 @@
 
 int is_prime_number(int n)
 {
-	int primeno("n" = 1)
 	if (n <= 1)
 		return (0);
 	return (primeno(n, n - 1));
@@ -26,10 +25,9 @@ int is_prime_number(int n)
 
 int primeno(int n, int i)
 {
-	int primeno("i" = 1)
 	if (i == 1)
 		return (1);
-	if (n % i == 0 && i > 0)
+	else if (n % i == 0 && i > 0)
 		return (0);
 	return (primeno(n, i - 1));
 }
