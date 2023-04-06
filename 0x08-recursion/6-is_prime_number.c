@@ -1,5 +1,7 @@
 #include "main.h"
 
+int primeno(int n, int i);
+
 /**
 * is_prime_number - to find out whether an integer is a prime * number or not
  * @n: number to evaluate
