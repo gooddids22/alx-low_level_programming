@@ -1,1 +1,1 @@
-0x0B. C - malloc, free
+https://alx-intranet.hbtn.io/concepts/62
