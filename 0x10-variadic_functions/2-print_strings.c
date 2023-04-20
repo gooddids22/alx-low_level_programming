@@ -3,12 +3,13 @@
 #include <stdarg.h>
 
 /**
-* prints_strings - a func that prints strings
+* print_strings - a func that prints strings
 * @separator: string to be printed between strings
 * @n: the num of strings passed to the function
 * @...: a variable number of strings to be printed
 *
 * Description: separator is the string to be printed
+* print_strings is a func that prints strings
 * if separator is NULL, it is not printed.
 * If one of the string is NULL, print (nil) instead.
 */
