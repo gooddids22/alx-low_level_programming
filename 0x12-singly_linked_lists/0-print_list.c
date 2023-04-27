@@ -3,7 +3,7 @@
 
 /**
 * print_list - prints all the elements of a linked list
- * @h: linked list of type listint_t to print
+ * @h: pointer to the list_t list to print
  *@s: strings
 * Return: number of nodes
 */
