@@ -4,19 +4,26 @@
 /**
 * print_list - prints all the elements of a linked list
  * @h: linked list of type listint_t to print
- *
+ *@s: strings
 * Return: number of nodes
 */
 size_t print_list(const list_t *h)
 {
-size_t num = 0;
+size_t s = 0;
 
 while (h)
 {
-printf("%s\n", h->str);
-num++;
+	if (!h->str)
+		printf("[0] (nil)\n");
+
+	else 
+
+printf("[%u] %s\n", h->len,  h->str);
+
 h = h->next;
+s++;
+
 }
 
-return (num);
+return (s);
 }
